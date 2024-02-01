@@ -39,7 +39,6 @@ export default function Main() {
       setTranslatedText(response.choices[0].message.content)
     } catch (error) {
       setErrorMessage(error.message)
-      console.log(errorMessage)
     }
   }
 
